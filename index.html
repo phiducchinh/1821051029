@@ -11,35 +11,44 @@
 </head>
 
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
-    <nav>
+    <nav >
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            <li><a data-section="home">Trang chủ</a></li>
+            <li><a data-section="info">Giới thiệu</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <a href="javascript:void(0)" class="dropbtn">Khóa học</a>
                 <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+                    <a data-section="link1">Võ thuật</a>
+                    <a data-section="link2">Cử tạ & thể hình</a>
+                    <a data-section="link3">Huấn luyện thi đấu </a>
+                    <a data-section="link4">Chương trình trẻ em</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li><a data-section="new">Tin tức</a></li>
+            <li style="float: right;"><a data-section="contrac">Liên hệ</a></li>
         </ul>
     </nav>
 
-    <section id="home" class="hideable-section">
-        <div>Home content</div>
+    <header>
+        <h1>Câu lạc bộ thể thao</h1>
+        <p>H sport club</p>
+    </header>
+
+    
+
+    <section id="home" class="hideable-section" style="height: 1000px;width: 1000px; background: sandybrown;">
+        <div >Home content</div>
     </section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
+    <section id="info" class="hideable-section">
+        <div>giới thiệu</div>
     </section>
 
-    <section id="about" class="hideable-section">
+    <section id="new" class="hideable-section">
+        <div>thong tin </div>
+    </section>
+
+    <section id="contrac" class="hideable-section">
         <div>About content</div>
     </section>
 
@@ -55,6 +64,10 @@
         <div>Link3 content</div>
     </section>
 
+    <section id="link4" class="hideable-section">
+        <div>Link3 content</div>
+    </section>
+    
     <script>
         $(function() {
             $('nav ul li a').click(function() {
