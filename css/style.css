@@ -115,6 +115,7 @@ h3{
 #home .info_main1{
     height: 450px;
     margin: -19px;
+    background:#d0d0d0;
 }
 
 .info_main1 .info_main1_1{
@@ -136,12 +137,14 @@ h3{
 .info_main1 .info_main1_1 .right_img_home1 img{
     max-width: 100%;
     max-height: 100%;
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info_main1 .info_main1_1 .left_img_home1 img{
     padding-top: 20px;
     max-width: 100%;
     max-height: 100%;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #home .info_main2{
@@ -203,11 +206,9 @@ h4{
     padding: 20px;
 }
 
-#home .info_main4 .comment .avata{
-    height: 80px;
-    width: 80px;
-    border: 1px solid black;
-    border-radius: 40px;
+#home .info_main4 .comment .avata img{
+    max-width: 30%;
+    border-radius: 50%;
 }
 
 #home .info_main4 .comment h4{
@@ -216,7 +217,7 @@ h4{
 
 #info .info1{
     background:burlywood;
-    height: 300px;
+    height: 400px;
     margin: -19px;
     padding: 30px;
 }
@@ -224,4 +225,15 @@ h4{
 #info .info1 .right_info1{
     width: 50%;
     float: right;
+}
+
+#info .info2{
+    height: 400px;
+    margin: -19px;
+    padding: 30px;
+}
+
+#info .info2 .right_info2{
+    width: 50%;
+    float: left;
 }
