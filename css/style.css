@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 
@@ -74,7 +74,6 @@ ul li .dropdown-content a {
     display: block;
 }
 
-
 /* Landing page */
 
 .hideable-section {
@@ -108,12 +107,12 @@ footer .left_footer ul li a{
 }
 
 h3{
-    font-size: 25px;
-    padding: 20px;
+    font-size: 22px;
+    padding: 10px;
 }
 
 #home .info_main1{
-    height: 450px;
+    height: 600px;
     margin: -19px;
     background:#f5f5f5;
 }
@@ -121,7 +120,7 @@ h3{
 .info_main1 .info_main1_1{
     float: left;
     width: 50%;
-    height: 200px;
+    height: 250px;
     padding: 10px;
 }
 
@@ -141,7 +140,7 @@ h3{
 }
 
 .info_main1 .info_main1_1 .left_img_home1 img{
-    padding-top: 20px;
+    margin-top: 20px;
     max-width: 100%;
     max-height: 100%;
     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -180,7 +179,7 @@ h3{
 
 #home .info_main3 .right_info_main3 img{
     float: right;
-    padding-right: 20px;
+    margin-right: 20px;
     max-width: 25%;
     max-height: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -338,3 +337,49 @@ h6{
     color: white;
 }
 
+#link2 #info1_link2,
+#info2_link2,
+#info3_link2{
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    color: white;
+}
+
+#link2 .info1{
+    background-image: url(../image/cross2.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link2 .info2{
+    background-image: url(../image/burn.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link2 .info3{
+    background-image: url(../image/yoga.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link3{
+    background-image: url(../image/vothuat\ -\ Copy.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+
+#link3 #info_link3{
+    width: 50%;
+}
+
+#link4{
+    background-image: url(../image/child2.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+
+#link4 #info_link4{
+    width: 50%;
+}
