@@ -284,3 +284,57 @@ p{
     font-size: 20px;
     text-indent: 20px;
 }
+
+#link1 .bimg1{
+    background-image: url(../image/link2.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link1 .bimg1  #info1_link1{
+    width: 50%;
+    height: 470px;
+    padding: 30px;
+}
+
+#link1 .bimg2{
+    background-image: url(../image/link1.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link1  .bimg2 #info2_link1{
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+}   
+
+#link1 .bimg3{
+    background-image: url(../image/vothuat\ -\ Copy.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link1  .bimg3 #info3_link1{
+    width: 50%;
+    height: 450px;
+    padding: 30px;
+}
+
+#link1 .bimg4{
+    background-image: url(../image/link4.jpg);
+    background-size: 100%;
+    margin: -20px;
+}
+
+#link1  .bimg4 #info4_link1{
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+}
+
+h6{
+    font-size: 30px;
+    color: white;
+}
+
