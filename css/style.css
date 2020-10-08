@@ -216,24 +216,40 @@ h4{
 }
 
 #info .info1{
-    background:burlywood;
     height: 400px;
     margin: -19px;
     padding: 30px;
 }
 
-#info .info1 .right_info1{
+#info .info1 .right_info1,
+.left_info1{
     width: 50%;
     float: right;
+}
+
+#info .info1 .left_info1 img{
+    max-width: 55%;
+    max-height: auto;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #info .info2{
     height: 400px;
     margin: -19px;
     padding: 30px;
+    background-size: 100%;
 }
 
 #info .info2 .right_info2{
     width: 50%;
     float: left;
+    color: white;
+}
+
+#info .info1 .left_info3 img{
+    max-height: 20%;
+    max-width: 20%;
+    margin-left: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
