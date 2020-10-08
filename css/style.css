@@ -27,13 +27,12 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: right;
+    float:right;
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
 }
 
 nav ul li {
-    display: inline;
     float: right;
 }
 
@@ -382,4 +381,25 @@ h6{
 
 #link4 #info_link4{
     width: 50%;
+}
+
+caption{
+    font-size: 20px;
+    color: #FF6600;
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+}
+
+form table {
+    background-color: rgba(132, 159, 160,0.1);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+form table tr th{
+    text-align: right;
 }

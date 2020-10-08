@@ -415,7 +415,56 @@
     </section>
     
     <section id="contrac" class="hideable-section">
-        <div>About content</div>
+    <div>
+        <form>
+        <table>
+            <caption>Phiếu đăng kí</caption>
+            <tr>
+                <th><label for="name">Họ và tên:</label></th>
+                <td><input type="text" name="fullName"></td>
+            </tr>
+            <tr>
+                <th valign="top">Giới tính:</th>
+                <td>
+                    <input type="radio"  name="sex" value="male">
+                    <label for="sex">Nam</label> <br>
+                    <input type="radio"  name="sex" value="female">
+                    <label for="sex">Nữ</label> <br>
+                    <input type="radio"  name="sex" value="none" checked ="">
+                    <label for="sex">Khác</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="phoneNumber">Số điện thoại:</label></th>
+                <td><input type="number" name="PhoneNumber"></td>
+            </tr>
+            <tr>
+                <th><label for="mail">Mail:</label></th>
+                <td><input type="email" name="Mail"></td>
+            </tr>
+            <tr>
+                <th valign="top" >Lựa chọn:</th>
+                <td>
+                    <input type="checkbox" name="chose" value="vothuat">
+                    <label for="chose1">Võ thuật</label> <br>
+                    <input type="checkbox" name="chose" value="gym">
+                    <label for="chose1">Gym,Yoga,CrossFit</label> <br>
+                    <input type="checkbox" name="chose" value="thidau">
+                    <label for="chose1">Thi đấu</label> <br>
+                    <input type="checkbox" name="chose" value="chidrent">
+                    <label for="chose1">Trẻ em</label>
+                </td>
+            </tr>
+            <tr>
+                <th valign="top"><label for="info">Chia sẻ thêm:</label></th>
+                <td><textarea name="infomatio" id="infoma" cols="30" rows="5"></textarea> <br>
+                <input style="margin: 5px;" type="submit" value="Gửi">
+                <input style="margin: 5px;" type="reset" value="Reset"></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+
     </section>
 
     <footer>
