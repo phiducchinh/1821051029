@@ -4,13 +4,18 @@
     font-family: sans-serif;
 }
 
+p{
+    line-height: 25px;
+}
+
 /* Header/logo tiêu đề */
 header.header_home{
     background-image: url(../image/phonggym1.jpg);
     height: 800px;
     font-size: 40px;
-    color: white;
+    color:	#FFFAF0;
     padding: 300px 50px;
+    margin: -20px;
 }
 
 nav{
@@ -60,12 +65,14 @@ nav ul li.dropdown {
 }
 
 ul li .dropdown-content a {
-    color: white;
+    color:black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
     font-size: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .dropdown:hover .dropdown-content {
@@ -82,13 +89,16 @@ ul li .dropdown-content a {
     display: block;
 }
 
-footer{
-    background: black;
+footer div.left_footer{
+    color: #ff6600;
+    width: 50%;
+    padding: 70px 30px;
+    float: left;
 }
 
-footer div.left_footer{
-    color: bisque;
-    padding: 100px 50px;
+footer{
+    background: rgb(24, 20, 20);
+    height: 300px;
 }
 
 footer .left_footer ul{
@@ -101,7 +111,12 @@ footer .left_footer ul li{
 
 footer .left_footer ul li a{
     text-decoration: none;
-    color: bisque   ;
+    color: #FF6600   ;
+}
+
+footer .right_footer {
+    float: left;
+    width: 50%;
 }
 
 h3{
@@ -110,9 +125,9 @@ h3{
 }
 
 #home .info_main1{
-    height: 550px;
-    margin: -19px;
-    background:#f5f5f5;
+    height: 560px;
+    margin: -20px;
+    background:#cfcaca;
 }
 
 .info_main1 .info_main1_1{
@@ -147,10 +162,10 @@ h3{
 #home .info_main2{
     background-image: url(../image/gym3.png);
     background-size: 100%;
-    height: 450px;
+    height: 550px;
     margin: -19px;
     padding: 30px;
-    color: white;
+    color: 	#FFFAFA;
 }
 
 #home .info_main2 ul {
@@ -159,7 +174,7 @@ h3{
 }
 
 #home .info_main3{
-    background:#f5f5f5;
+    background:#cfcaca;
     height: 400px;
     margin: -19px;
     padding: 30px;
@@ -190,7 +205,7 @@ h3{
     height: 400px;
     margin: -19px;
     padding: 30px;
-    color: white;
+    color: 	#FFFAFA;
 }
 
 h4{
@@ -218,7 +233,7 @@ div.add{
 
 div.add a{
     text-decoration: none;
-    color: white;
+    color: 	#FFFAFA;
     background-color: #ff6600;
     padding: 10px;
     margin: 10px;
@@ -229,7 +244,8 @@ div.add a:hover{
 }
 
 #info .info1{
-    height: 400px;
+    background:#cfcaca;
+    height: 450px;
     margin: -19px;
     padding: 30px;
 }
@@ -247,8 +263,17 @@ div.add a:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#info .info2{
+#info header.header_info{
+    background-image: url(../image/gym13.jpg);
+    background-size: 100%;
     height: 400px;
+    font-size: 25px;
+    color: #ff6600;
+    margin: -20px;
+}
+
+#info .info2{
+    height: 450px;
     margin: -19px;
     padding: 30px;
     background-size: 100%;
@@ -257,7 +282,7 @@ div.add a:hover{
 #info .info2 .right_info2{
     width: 50%;
     float: left;
-    color: white;
+    color: 	#FFFAFA;
 }
 
 #info .info1 .left_info3 img{
@@ -265,6 +290,15 @@ div.add a:hover{
     max-width: 20%;
     margin-left: 80px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header.header_khoa{
+    background-image: url(../image/gym2.jpg);
+    background-size: 100%;
+    height: 400px;
+    font-size: 25px;
+    color: #ff6600;
+    margin: -20px;
 }
 
 #khoahoc .khoa1{
@@ -299,7 +333,7 @@ div.add a:hover{
 .khoa2 h4,
 .khoa3 h4,
 .khoa4 h4{
-    color: white;
+    color: 	#FFFAFA;
     padding: 250px 0 0 35px;
     font-size: 35px;
 }
@@ -308,7 +342,7 @@ div.add a:hover{
 .khoa2 h4 ~ p,
 .khoa3 h4 ~ p,
 .khoa4 h4 ~ p{
-    color: white;
+    color: 	#FFFAFA;
     padding: 25px 0 0 35;
     font-size: 17px;
 }
@@ -320,31 +354,42 @@ div.add a:hover{
     padding: 15px 0 0 30px;
 } 
 
-#new{
-    height: 800px;
+#new .fix_new{
+    height: 750px;
+    margin: -20px;
+    background:#cfcaca;
 }
 
-#new .info_new{
+#new .header_new{
+    background-image: url(../image/link1.jpg);
+    background-size: 100%;
+    height: 400px;
+    font-size: 25px;
+    color: #ff6600;
+    margin: -20px;
+}
+
+#new .fix_new .info_new{
     float: left;
     width: 30%;
-    border: 1px solid black;
-    margin: 17px;
+    border: 1px solid rgb(83, 83, 83);
+    margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 10px;
-    height: 320px;
+    height: 350px;
     background: #f5f5f5;
 }
 
-#new .info_new img{
+#new .fix_new .info_new img{
     max-width: 100%;
 }
 
-#new .info_new h5,
+#new .fix_new .info_new h5,
 p{
     padding: 10px;
 }
 
-#new .info_new h5 a{
+#new .fix_new .info_new h5 a{
     text-decoration: none;
     color: #ff6600;
     font-size: 20px;
@@ -372,7 +417,7 @@ p{
 
 #link1  .bimg2 #info2_link1{
     width: 50%;
-    height: 400px;
+    height: 450px;
     padding: 50px 30px 30px 30px;
 }   
 
@@ -402,7 +447,7 @@ p{
 
 h6{
     font-size: 30px;
-    color: white;
+    color: 	#FFFAFA;
 }
 
 #link2 #info1_link2,
@@ -411,7 +456,7 @@ h6{
     width: 50%;
     height: 400px;
     padding: 50px 30px 30px 30px;
-    color: white;
+    color: 	#FFFAFA;
 }
 
 #link2 .info1{
@@ -432,24 +477,26 @@ h6{
     margin: -20px;
 }
 
-#link3{
+#link3 .fix{
     background-image: url(../image/vothuat\ -\ Copy.jpg);
     background-size: 100%;
-    height: 400px;
+    height: 500px;
+    margin: 0 -20px 0 -3s0px;
 }
 
-#link3 #info_link3{
+#link3 .fix #info_link3{
     width: 50%;
     padding: 50px 30px 30px 30px;
 }
 
-#link4{
+#link4 .fix1{
     background-image: url(../image/child2.jpg);
     background-size: 100%;
     height: 500px;
+    margin: -20px;
 }
 
-#link4 #info_link4{
+#link4 .fix1 #info_link4{
     width: 50%;
     padding: 50px 30px 30px 30px;
 }
@@ -459,19 +506,28 @@ caption{
     color: #FF6600;
 }
 
-form{
-    width: 400px;
+#contrac .header_contrac{
+    background-image: url(../image/phonggym1.jpg);
+    background-size: 100%;
     height: 400px;
-    margin: 30px auto;
+    font-size: 25px;
+    color: #ff6600;
+    margin: -20px;
 }
 
-form table {
+.fix4 form{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.fix4 form table {
     background-color: rgba(132, 159, 160,0.1);
     padding: 25px;
     border-radius: 5px;
 }
 
-form table tr th{
+.fix4 form table tr th{
     text-align: right;
 }
 
@@ -487,7 +543,7 @@ div.list_link1 ul li a{
     text-decoration: none;
     display: block;
     margin: 5px;
-    color: white;
+    color:	#FFFAFA;
     background-color: rgb(74, 76, 77);
     text-align: center;
     padding: 5px;
@@ -497,4 +553,3 @@ div.list_link2 ul li a:hover,
 div.list_link1 ul li a:hover{
     background-color: #ff6600;
 }
-
