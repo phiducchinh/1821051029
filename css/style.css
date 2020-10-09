@@ -267,6 +267,59 @@ div.add a:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#khoahoc .khoa1{
+    background-image: url(../image/vothuat.jpg);
+    background-size: 100%;
+    height: 600px;
+    margin: -20px;
+}
+
+#khoahoc .khoa2{
+    background-image: url(../image/yoga.jpg);
+    background-size: 100%;
+    height: 600px;
+    margin: -20px;
+}
+
+#khoahoc .khoa3{
+    background-image: url(../image/cử\ tạ.jpg);
+    background-size: 100%;
+    height: 600px;
+    margin: -20px;
+}
+
+#khoahoc .khoa4{
+    background-image: url(../image/child2.jpg);
+    background-size: 100%;
+    height: 600px;
+    margin: -20px;
+}
+
+.khoa1 h4,
+.khoa2 h4,
+.khoa3 h4,
+.khoa4 h4{
+    color: white;
+    padding: 250px 0 0 35px;
+    font-size: 35px;
+}
+
+.khoa1 h4 ~ p,
+.khoa2 h4 ~ p,
+.khoa3 h4 ~ p,
+.khoa4 h4 ~ p{
+    color: white;
+    padding: 25px 0 0 35;
+    font-size: 17px;
+}
+
+.khoa1 .add,
+.khoa2 .add,
+.khoa3 .add,
+.khoa4 .add{
+    padding: 15px 0 0 30px;
+} 
+
 #new{
     height: 800px;
 }
