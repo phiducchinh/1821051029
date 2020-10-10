@@ -4,11 +4,14 @@
     font-family: sans-serif;
 }
 
+section {
+    padding: 20px;
+}
+
 p{
     line-height: 25px;
 }
 
-/* Header/logo tiêu đề */
 header.header_home{
     background-image: url(../image/phonggym1.jpg);
     height: 800px;
@@ -21,10 +24,6 @@ header.header_home{
 nav{
     position: sticky;
     top: 0;
-}
-
-section {
-    padding: 20px;
 }
 
 nav ul {
@@ -53,6 +52,7 @@ nav ul li a,
 nav ul li a:hover:not(.active),
 .dropdown:hover .dropbtn {
     color: #FF6600;
+    cursor: pointer;
 }
 
 nav ul li.dropdown {
@@ -209,7 +209,7 @@ h3{
 }
 
 h4{
-    color: #FF6600;
+    color: #d35501f5;
 }
 
 #home .info_main4 .comment{
@@ -234,7 +234,7 @@ div.add{
 div.add a{
     text-decoration: none;
     color: 	#FFFAFA;
-    background-color: #ff6600;
+    background-color: #d35501f5;
     padding: 10px;
     margin: 10px;
 }
@@ -551,5 +551,5 @@ div.list_link1 ul li a{
 }
 div.list_link2 ul li a:hover,
 div.list_link1 ul li a:hover{
-    background-color: #ff6600;
+    background-color: #d35501f5;
 }
