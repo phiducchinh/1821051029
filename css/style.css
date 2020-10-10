@@ -95,10 +95,11 @@ footer div.left_footer{
     padding: 70px 30px;
     float: left;
 }
-
+ 
 footer{
     background: rgba(24, 20, 20,0.9);
     height: 300px;
+    margin-top: -20px;
 }
 
 footer .left_footer ul{
@@ -241,6 +242,13 @@ div.add a{
 
 div.add a:hover{
     background-color: rgb(92, 68, 77);
+}
+
+#info .video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid rgb(41, 41, 41);
 }
 
 #info .info1{
@@ -515,8 +523,14 @@ caption{
     margin: -20px;
 }
 
+.fix4{
+    background:#fafafa;
+    margin: -20px ;
+    margin-top: -50px;
+}
+
 .fix4 form{
-    width: 600px;
+    width: 800px;
     height: 400px;
     margin: 50px 440px;
 }
